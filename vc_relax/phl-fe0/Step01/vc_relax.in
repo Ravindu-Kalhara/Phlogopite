@@ -18,7 +18,6 @@
    ecutwfc         = 110 
    ecutrho         = 440 
    occupations     = 'fixed' 
-   degauss         = 0.02 
    vdw_corr        = 'grimme-d2' 
  /
  &ELECTRONS
