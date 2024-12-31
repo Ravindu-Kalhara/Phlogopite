@@ -45,7 +45,7 @@ def reciprocal_lattice_vectors(lattice_vectors):
     return b1, b2, b3
 
 
-filename = 'phl-fe1-nspin-dftd3-relax.vasp'
+filename = 'phl-fe0-nspin-dftd3-vc_relax.vasp'
 
 try:
     lattice_vectors = read_vasp_file(filename)
