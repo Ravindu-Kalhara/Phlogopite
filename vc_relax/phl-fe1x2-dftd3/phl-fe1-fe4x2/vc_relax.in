@@ -4,6 +4,7 @@
    pseudo_dir      = './../../../pseudos/' 
    prefix          = 'phl-fe1-fe4x2' 
    verbosity       = 'high' 
+   restart_mode    = 'restart'
    tstress         = .true. 
    tprnfor         = .true. 
  /
