@@ -4,6 +4,7 @@
    pseudo_dir      = './../../../pseudos/' 
    prefix          = 'phl-fe1-fe2x2' 
    verbosity       = 'high' 
+   restart_mode    = 'restart'
    etot_conv_thr   = 1.0D-6 
  /
  &SYSTEM
