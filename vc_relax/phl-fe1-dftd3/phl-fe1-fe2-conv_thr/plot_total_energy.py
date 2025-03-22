@@ -16,9 +16,9 @@ def extract_total_energies(file_path):
     return energies
 
 # File paths
-file_paths = ["vc_relax-prev.out", "vc_relax.out"]
+file_paths = ["vc_relax.out"]
 
-total_energy_values = [energy for file in file_paths for energy in extract_total_energies(file)]
+total_energy_values = [energy for file in file_paths for energy in extract_total_energies(file)][:-1]
 energy_variations = np.abs(np.diff(total_energy_values))
 steps = np.arange(1, len(total_energy_values) + 1)
 
