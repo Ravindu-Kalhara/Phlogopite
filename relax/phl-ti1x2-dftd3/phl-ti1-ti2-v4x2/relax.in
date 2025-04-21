@@ -4,6 +4,7 @@
    pseudo_dir      = './../../../pseudos/' 
    prefix          = 'phl-ti1-ti2-v4x2' 
    verbosity       = 'high' 
+   restart_mode    = 'restart'
  /
  &SYSTEM
    ibrav           = -12
