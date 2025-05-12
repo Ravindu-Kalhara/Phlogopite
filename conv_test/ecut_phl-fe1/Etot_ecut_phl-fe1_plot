@@ -114,7 +114,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Sun May 11 18:30:16 2025"
+@timestamp def "Mon May 12 08:56:43 2025"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -318,7 +318,7 @@
 @    s0 symbol char font 0
 @    s0 symbol skip 0
 @    s0 line type 1
-@    s0 line linestyle 1
+@    s0 line linestyle 3
 @    s0 line linewidth 1.5
 @    s0 line color 1
 @    s0 line pattern 1
