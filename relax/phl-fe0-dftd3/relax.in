@@ -4,8 +4,8 @@
    pseudo_dir      = './../../pseudos/' 
    prefix          = 'phl-fe0-dftd3' 
    verbosity       = 'high' 
-   tstress         = .true. 
-   tprnfor         = .true. 
+   etot_conv_thr   = 1.0D-5 
+   forc_conv_thr   = 1.0D-4 
  /
  &SYSTEM
    ibrav           = -12
@@ -15,17 +15,15 @@
    cosAC           = -0.17756524 
    nat             = 44
    ntyp            = 6
-   ecutwfc         = 60 
-   ecutrho         = 480 
+   ecutwfc         = 65 
+   ecutrho         = 520 
    occupations     = 'fixed' 
    vdw_corr        = 'grimme-d3' 
  /
  &ELECTRONS
+   conv_thr        = 1.0D-8 
  /
  &IONS
- /
- &CELL
-   cell_dofree     = 'ibrav' 
  /
 ATOMIC_SPECIES
    Al   26.98154  Al.pbe-n-kjpaw_psl.1.0.0.UPF 
