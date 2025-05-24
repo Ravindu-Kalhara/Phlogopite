@@ -5,7 +5,8 @@
    prefix          = 'phl-fe0-dftd3' 
    verbosity       = 'high' 
    etot_conv_thr   = 1.0D-5 
-   forc_conv_thr   = 1.0D-4 
+   forc_conv_thr   = 5.0D-4 
+   nstep           = 100 
  /
  &SYSTEM
    ibrav           = -12
