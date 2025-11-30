@@ -4,8 +4,9 @@
    pseudo_dir      = './../../pseudos/' 
    prefix          = 'phl-fe0-dftd3' 
    verbosity       = 'high' 
+   restart_mode    = 'restart' 
    etot_conv_thr   = 1.0D-5 
-   forc_conv_thr   = 5.0D-4 
+   forc_conv_thr   = 1.0D-4 
    nstep           = 100 
  /
  &SYSTEM
@@ -16,8 +17,8 @@
    cosAC           = -0.17756524 
    nat             = 44
    ntyp            = 6
-   ecutwfc         = 65 
-   ecutrho         = 520 
+   ecutwfc         = 70 
+   ecutrho         = 560 
    occupations     = 'fixed' 
    vdw_corr        = 'grimme-d3' 
  /
