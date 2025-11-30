@@ -6,7 +6,7 @@ NAME='ecut'
 
 ####################################################
 
-for ECUT in 40 50 55 60 65 70 80 90 100
+for ECUT in 30 35 40 45 50 55 60 65 70 75 80 85 90 100 110 120 130 140
 do
 ECUTRHO=$((ECUT * 8))
 cat > ./test_files/phl.${NAME}_${ECUT}.in << EOF
@@ -88,7 +88,7 @@ K_POINTS automatic
 
 EOF
 
-mpirun -np 6 pw.x < ./test_files/phl.${NAME}_${ECUT}.in >  ./test_files/phl.${NAME}_${ECUT}.out
+mpirun -np 14 /home/physics/modules/qe-7.3.1/bin/pw.x -npool 2 < ./test_files/phl.${NAME}_${ECUT}.in >  ./test_files/phl.${NAME}_${ECUT}.out
 echo ${NAME}=${ECUT} done
 
 done
