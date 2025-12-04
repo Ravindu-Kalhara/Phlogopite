@@ -1,9 +1,10 @@
 #!/bin/bash
 
+scf_prefix="phl"
 output="Etot_ecut.dat"
 : > "$output"	# empty the file
 
-for file in phl.ecut_*.out; do
+for file in "$scf_prefix".ecut_*.out; do
     ecutwfc=$(echo "$file" | sed 's/.*ecut_//; s/\.out$//')	 # extract ecutwfc
     total_energy=$(grep -e '^!.*total energy' "$file" | awk '{print $5}')	# extract total energy
 
