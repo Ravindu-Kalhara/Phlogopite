@@ -13,10 +13,6 @@
 @map font 6 to "Helvetica-Bold", "Helvetica-Bold"
 @map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
 @map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
-@map font 18 to "NimbusMonoL-Bold", "NimbusMonoL-Bold"
-@map font 19 to "NimbusMonoL-BoldOblique", "NimbusMonoL-BoldOblique"
-@map font 20 to "NimbusMonoL-Regular", "NimbusMonoL-Regular"
-@map font 21 to "NimbusMonoL-RegularOblique", "NimbusMonoL-RegularOblique"
 @map font 22 to "NimbusMonoPS-Bold", "NimbusMonoPS-Bold"
 @map font 23 to "NimbusMonoPS-BoldItalic", "NimbusMonoPS-BoldItalic"
 @map font 24 to "NimbusMonoPS-Italic", "NimbusMonoPS-Italic"
@@ -25,22 +21,10 @@
 @map font 27 to "NimbusRoman-BoldItalic", "NimbusRoman-BoldItalic"
 @map font 28 to "NimbusRoman-Italic", "NimbusRoman-Italic"
 @map font 29 to "NimbusRoman-Regular", "NimbusRoman-Regular"
-@map font 30 to "NimbusRomanNo9L-Medium", "NimbusRomanNo9L-Medium"
-@map font 31 to "NimbusRomanNo9L-MediumItalic", "NimbusRomanNo9L-MediumItalic"
-@map font 32 to "NimbusRomanNo9L-Regular", "NimbusRomanNo9L-Regular"
-@map font 33 to "NimbusRomanNo9L-RegularItalic", "NimbusRomanNo9L-RegularItalic"
 @map font 34 to "NimbusSans-Bold", "NimbusSans-Bold"
 @map font 35 to "NimbusSans-BoldItalic", "NimbusSans-BoldItalic"
 @map font 36 to "NimbusSans-Italic", "NimbusSans-Italic"
 @map font 37 to "NimbusSans-Regular", "NimbusSans-Regular"
-@map font 38 to "NimbusSansL-Bold", "NimbusSansL-Bold"
-@map font 39 to "NimbusSansL-BoldCondensed", "NimbusSansL-BoldCondensed"
-@map font 40 to "NimbusSansL-BoldCondensedItalic", "NimbusSansL-BoldCondensedItalic"
-@map font 41 to "NimbusSansL-BoldItalic", "NimbusSansL-BoldItalic"
-@map font 42 to "NimbusSansL-Regular", "NimbusSansL-Regular"
-@map font 43 to "NimbusSansL-RegularCondensed", "NimbusSansL-RegularCondensed"
-@map font 44 to "NimbusSansL-RegularCondensedItalic", "NimbusSansL-RegularCondensedItalic"
-@map font 45 to "NimbusSansL-RegularItalic", "NimbusSansL-RegularItalic"
 @map font 46 to "NimbusSansNarrow-Bold", "NimbusSansNarrow-Bold"
 @map font 47 to "NimbusSansNarrow-BoldOblique", "NimbusSansNarrow-BoldOblique"
 @map font 48 to "NimbusSansNarrow-Oblique", "NimbusSansNarrow-Oblique"
@@ -49,7 +33,6 @@
 @map font 51 to "P052-BoldItalic", "P052-BoldItalic"
 @map font 52 to "P052-Italic", "P052-Italic"
 @map font 53 to "P052-Roman", "P052-Roman"
-@map font 54 to "StandardSymbolsL-Regular", "StandardSymbolsL-Regular"
 @map font 55 to "StandardSymbolsPS-Regular", "StandardSymbolsPS-Regular"
 @map font 12 to "Symbol", "Symbol"
 @map font 2 to "Times-Bold", "Times-Bold"
@@ -60,23 +43,10 @@
 @map font 62 to "URWBookman-DemiItalic", "URWBookman-DemiItalic"
 @map font 63 to "URWBookman-Light", "URWBookman-Light"
 @map font 64 to "URWBookman-LightItalic", "URWBookman-LightItalic"
-@map font 65 to "URWBookmanL-DemiBold", "URWBookmanL-DemiBold"
-@map font 66 to "URWBookmanL-DemiBoldItalic", "URWBookmanL-DemiBoldItalic"
-@map font 67 to "URWBookmanL-Light", "URWBookmanL-Light"
-@map font 68 to "URWBookmanL-LightItalic", "URWBookmanL-LightItalic"
-@map font 69 to "URWChanceryL-MediumItalic", "URWChanceryL-MediumItalic"
 @map font 70 to "URWGothic-Book", "URWGothic-Book"
 @map font 71 to "URWGothic-BookOblique", "URWGothic-BookOblique"
 @map font 72 to "URWGothic-Demi", "URWGothic-Demi"
 @map font 73 to "URWGothic-DemiOblique", "URWGothic-DemiOblique"
-@map font 74 to "URWGothicL-Book", "URWGothicL-Book"
-@map font 75 to "URWGothicL-BookOblique", "URWGothicL-BookOblique"
-@map font 76 to "URWGothicL-Demi", "URWGothicL-Demi"
-@map font 77 to "URWGothicL-DemiOblique", "URWGothicL-DemiOblique"
-@map font 78 to "URWPalladioL-Bold", "URWPalladioL-Bold"
-@map font 79 to "URWPalladioL-BoldItalic", "URWPalladioL-BoldItalic"
-@map font 80 to "URWPalladioL-Italic", "URWPalladioL-Italic"
-@map font 81 to "URWPalladioL-Roman", "URWPalladioL-Roman"
 @map font 82 to "Z003-MediumItalic", "Z003-MediumItalic"
 @map font 13 to "ZapfDingbats", "ZapfDingbats"
 @map color 0 to (255, 255, 255), "white"
@@ -114,7 +84,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Mon May 12 08:56:43 2025"
+@timestamp def "Fri Dec  5 02:28:35 2025"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -161,10 +131,10 @@
 @g0 fixedpoint format general general
 @g0 fixedpoint prec 6, 6
 @with g0
-@    world 40, -2631.28, 100, -2630.68
+@    world 25, -2631.7, 145, -2623.7
 @    stack world 0, 0, 0, 0
 @    znorm 1
-@    view 0.150000, 0.150000, 1.149510, 0.741422
+@    view 0.150000, 0.150735, 1.218137, 0.741422
 @    title ""
 @    title font 0
 @    title size 1.500000
@@ -243,7 +213,7 @@
 @    yaxis  label color 1
 @    yaxis  label place normal
 @    yaxis  tick on
-@    yaxis  tick major 0.1
+@    yaxis  tick major 1
 @    yaxis  tick minor ticks 1
 @    yaxis  tick default 6
 @    yaxis  tick place rounded true
@@ -312,14 +282,14 @@
 @    s0 symbol pattern 1
 @    s0 symbol fill color 1
 @    s0 symbol fill pattern 0
-@    s0 symbol linewidth 1.5
+@    s0 symbol linewidth 2.0
 @    s0 symbol linestyle 1
 @    s0 symbol char 65
 @    s0 symbol char font 0
 @    s0 symbol skip 0
 @    s0 line type 1
-@    s0 line linestyle 3
-@    s0 line linewidth 1.5
+@    s0 line linestyle 1
+@    s0 line linewidth 2.0
 @    s0 line color 1
 @    s0 line pattern 1
 @    s0 baseline type 0
@@ -351,17 +321,26 @@
 @    s0 errorbar riser linestyle 1
 @    s0 errorbar riser clip off
 @    s0 errorbar riser clip length 0.100000
-@    s0 comment "Etot_ecut_phl-fe1"
+@    s0 comment "/home/physics/Ravindu/Phlogopite/conv_test/ecut_phl-fe1/Etot_ecut.dat"
 @    s0 legend  ""
 @target G0.S0
 @type xy
+30 -2624.2367
+35 -2629.3026
 40 -2630.702
+45 -2631.0722
 50 -2631.1558
 55 -2631.1758
 60 -2631.1884
 65 -2631.203
 70 -2631.2173
+75 -2631.2286
 80 -2631.2359
+85 -2631.2397
 90 -2631.2413
 100 -2631.2421
+110 -2631.2434
+120 -2631.2452
+130 -2631.2465
+140 -2631.247
 &
